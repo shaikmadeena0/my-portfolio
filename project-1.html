@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTube Transcript Summarizer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>YouTube Transcript Summarizer</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+       <li><a href="certificates.html">Certificates</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="section">
+
+  <h2>🎯 Objective</h2>
+  <p>
+    The goal of this project was to help users save time by summarizing YouTube videos into key points,
+    eliminating the need to watch the entire video. This is especially useful for students, professionals,
+    and researchers who regularly consume long video content.
+  </p>
+
+  <h2>⚙ How It Works</h2>
+  <ul>
+    <li>Search for a video on YouTube.</li>
+    <li>Copy the video link from YouTube.</li>
+    <li>Paste the link into the web application.</li>
+    <li>Click <strong>Generate</strong> to fetch and process the transcript.</li>
+    <li>The application extracts keywords and generates key points instantly.</li>
+    <li>The summary can be downloaded as a PDF, and supports multiple languages.</li>
+  </ul>
+
+  <h2>🧠 Technologies Used</h2>
+  <ul>
+    <li><strong>Frontend:</strong> Streamlit (Python-based UI framework)</li>
+    <li><strong>Backend:</strong> Python</li>
+    <li><strong>NLP Libraries:</strong> NLTK, HuggingFace Transformers (BERT)</li>
+    <li><strong>PDF Generation:</strong> ReportLab</li>
+    <li><strong>Other Tools:</strong> NumPy</li>
+  </ul>
+
+  <h2>🧪 NLP Techniques Applied</h2>
+  <ul>
+    <li>Tokenization – splitting text into sentences/words</li>
+    <li>Stopword Removal – filtering out common words like “is”, “the”</li>
+    <li>Lemmatization – converting words to their base forms (e.g., running → run)</li>
+    <li>Text Cleaning – removing timestamps, filler words, and special characters</li>
+    <li>Sentence Ranking – using BERT to identify and extract the most relevant sentences</li>
+  </ul>
+
+  <h2>📊 Algorithms Used</h2>
+  <p>
+    I experimented with RNNs and LSTMs to capture long-term dependencies in transcripts, especially for long videos with complex content.
+  </p>
+
+  <h2>🌟 Key Features</h2>
+  <ul>
+    <li>🌐 Multilingual support</li>
+    <li>⚡ Real-time summarization</li>
+    <li>📄 Downloadable PDF summaries</li>
+    <li>🖥 Simple and user-friendly interface</li>
+  </ul>
+
+  <h2>🏁 Conclusion</h2>
+  <p>
+    This project demonstrates how AI and NLP can be practically used to simplify content consumption.
+    It was a valuable hands-on experience where I built a full-stack solution — from extracting transcripts
+    to processing them and presenting readable summaries through a clean UI.
+  </p>
+
+  <h2>📸 Project Screenshots</h2>
+  <p>Below are example outputs of my application in action:</p>
+
+  <div class="screenshots">
+  <img src="image/url link.png" alt="YouTube Summarizer - Input Example" class="screenshot-img" />
+  <img src="image/genarate.png" alt="YouTube Summarizer - Output Summary" class="screenshot-img" />
+  <img src="image/important points.png" alt="YouTube Summarizer - Output Summary" class="screenshot-img" />
+  <img src="image/langselect.png" alt="YouTube Summarizer - Output Summary" class="screenshot-img" />
+  <img src="image/download.png" alt="YouTube Summarizer - Output Summary" class="screenshot-img" />
+</div>
+
+
+</section>
+<footer>
+  <p>© 2025 Shaik Madeena. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
